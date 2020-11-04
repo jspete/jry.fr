@@ -87,6 +87,7 @@ PGP: https://keybase.io/jsantin/pgp_keys.asc?fingerprint=87202b40112a5d7c9ca580c
     <!-- Scripts below -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="js/main.js"></script>
+    
     <!-- Matomo -->
     <script type="text/javascript">
         var _paq = window._paq || [];
@@ -106,7 +107,6 @@ PGP: https://keybase.io/jsantin/pgp_keys.asc?fingerprint=87202b40112a5d7c9ca580c
             g.src = u + 'matomo.js';
             s.parentNode.insertBefore(g, s);
         })();
-
     </script>
     <!-- End Matomo Code -->
 
