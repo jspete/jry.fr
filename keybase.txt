@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/jsantin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jry.fr
+  * I am jsantin (https://keybase.io/jsantin) on keybase.
+  * I have a public key with fingerprint C997 70BC 9573 C599 B460  7BB4 EF1B 989A FE16 E93C
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101f5e396142d41094f3da807edb19e7c8611f68d022813360824b7137dae92a2610a",
+      "fingerprint": "c99770bc9573c599b4607bb4ef1b989afe16e93c",
+      "host": "keybase.io",
+      "key_id": "ef1b989afe16e93c",
+      "kid": "0101f5e396142d41094f3da807edb19e7c8611f68d022813360824b7137dae92a2610a",
+      "uid": "2c553fc69352ecb9d464e633f3508019",
+      "username": "jsantin"
+    },
+    "service": {
+      "hostname": "jry.fr",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1548616043,
+  "expire_in": 157680000,
+  "prev": "aa75aae2505ff8cbe2247d81343ccd2111945480a9a2f263ccd95e2f85dc18e8",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMIiAnicrVJbSBRRGN61lBLDBLt4KWoiERSbM/ezaGoZ3UAkeyp1PTNzZh13m1ln
+xlUxCSStwIgeEiQfogQre5Ii7OIt28x0ExIUCkNfIpJCqaBA6IzkW4+dl5/z8X3f
+/38//9iWDZ5Eb0lo9URebOuC983I9XpPRak32EzJptpE+ZqpIF4rOKRi2/EHdZXy
+UTSggcZjFgqAY1QO0JDTWBVJtIhVGUAsKpIAgCZIKs0wEmBZgZYYThYBK6oIQwYx
+AqARlUtpuhHAVtjSDYfYKhCKIi0rkBdZhYdQ5gRalGUOa0CGEkQaBgKGrEKENabt
+KshwMrJxnm4SjHz8a+P9g/+f565fs2MUnmc1RYAsz2BFhioncFhgWY3laYkG0CXa
+2DLQOUzYtTYyHN2gWnIpAkZ0Bbt7dYOsE6ymPM0iorBlOqZihghW4zhh2+dqnKaw
+S2rAsv+v3C/rhkoWSBQRbNm6aVA+QJiKo7t+gOdIGoHm2FwKN4Z1C/t1l8GLgkST
+5/bBEWKJkMgjhBme5jVNUmTMMJyokvgcqygqAwCAHPGiEUSMxgguCHnMaBKvKkDC
+EuUGqjNM4k1aOShAPG09YCCn3sJUy+hwxUaPN9GTEB/nXpYncfPW9XtrrdrkmegZ
+WC76lX568tRgyvjH4Ekq+mCaiXYV/u6Yi0PpbGdJsFOdyVx89CInqzHUcfjevicz
+735UH4zvmdo9P/Vwf95o+0rdUu/K/SPDDberCrvvmGVnj31avNN96ct278vJtq+1
+A9Ga8qxo8VB/ctmt60NPK49k38qKe528uryzzSwqSBu4cOb9roQJuCcxs+fD92fV
+gcWM3tSk1hRPt9/7qjflfMHRyr7jj6+2znYPVsddiSws9JXPJ8SEhtpDF/Njbxcv
+yT/ndp/ISPWZjVF7qbS/P+fm7Mlvsa7xG0pl6HJUvktFDuxtp+2sHV017f3VlSWf
+i5OupU3D7LH6kYH8xm3P/wBfeDkT
+=I+9H
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jsantin
+
+==================================================================

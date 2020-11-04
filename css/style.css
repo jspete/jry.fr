@@ -1,0 +1,330 @@
+body {
+  font-size: 100%;
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #080808;
+  line-height: 22px;
+  background-color: #343d46;
+  background-image: url("../img/ep_naturalblack.png");
+  background-position: top left;
+  background-repeat: repeat;
+  /*background-attachment: fixed;
+  background-size: cover;*/ }
+
+.colorToPrimary {
+  animation: ChgColorPrimary 1.5s ease-in-out;
+  background-color: #00ab8c; }
+
+.colorToSecondary {
+  animation: ChgColorSecondary 1.5s ease-in-out;
+  background-color: #343d46; }
+
+main#homepage {
+  width: 900px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 0px;
+  visibility: visible;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+#square, #square_description, #square_picture {
+  width: 50%;
+  height: 450px;
+  background: white;
+  display: block;
+  padding: 0; }
+
+#square_picture {
+  background-image: url("../img/pete_site.png");
+  background-size: cover;
+  background-position: top left; 
+  filter: grayscale(1);
+  transition: filter 1s ease-in-out ;
+}
+
+main:hover > #square_picture {
+  filter: grayscale(0);
+}
+
+#square_description {
+  order: 0;
+  z-index: 1; }
+
+#square_picture {
+  order: 0;
+  z-index: 2; }
+
+#square_picture:hover, #square_picture:focus, #square_picture:active {
+  animation: picture 1s ease-in-out; }
+
+div.square_inner {
+  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+#shader {
+  width: 100%;
+  margin: 0 auto;
+  height: 1px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.25);
+  margin-top: 50px;
+  margin-bottom: 30px;
+  opacity: 0; }
+
+#shader.invisible {
+  border: 0;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+h1 {
+  text-transform: uppercase;
+  color: #00ab8c;
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-weight: 400; }
+
+h2, h3 {
+  color: #080808;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-bottom: 25px; }
+
+strong {
+  font-weight: 400; }
+
+h1 strong {
+  font-weight: 900; }
+
+p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #606060;
+  margin-top: 5px;
+  text-align: justify; }
+
+p.title {
+  font-weight: 400;
+  margin-top: 15px;
+  color: #080808; }
+
+section#social {
+  margin: 0px;
+  margin-top: 30px; }
+
+section#social svg {
+  width: 40px !important;
+  height: 40px !important;
+  margin-top: 25px;
+  margin-right: 25px!important;
+  padding: 0;
+  cursor: pointer;
+  display: block;
+  color: #080808;
+  fill: #00ab8c;
+  display: inline-block;
+  fill: #00ab8c !important; }
+
+section#social svg path {
+  fill: #00ab8c; }
+
+section#social ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block; }
+
+section#social ul {
+  padding: 0;
+  margin: 0; }
+
+p a.link {
+  color: #000;
+  text-decoration: none; }
+
+span.lk {
+  border-bottom: 1px dashed #000;
+  text-decoration: none;
+  margin-left: 7px;
+  color: #080808; }
+
+p.outro {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 720px;
+  text-align: center !important;
+  opacity: 1;
+  text-decoration: none;
+  color: #606060; }
+
+a.lk {
+  opacity: 0.3; }
+
+p.outro > a.lk {
+  color: #606060;
+  text-decoration: none; }
+
+a.lk:hover {
+  opacity: 1; }
+
+/*
+
+
+p.link a,p.link a.link:link, p.link:active a, p.link:visited a, a.link, a:-webkit-any-link {
+    color: $font-color;
+    //color: $secondary-color;
+    font-weight: 400;
+    margin-top: 25px;
+    text-decoration:none;
+    //padding-bottom: 4px;
+}
+
+*|*:link{color: $font-color;font-weight: 400;}
+
+section#social ul li a.link, .svg-inline--fa, .fa-lg{
+  width: 35px!important;
+  height: 35px!important;
+  margin: 10px;
+  margin-top: 25px;
+  padding: 0;
+  cursor: pointer;
+  display: block;
+  color: $font-color;
+  fill: $primary-color;
+}
+
+section#social ul li a.link:first-child { margin-left: 0px;}
+
+section#social {margin-top: 25px;}
+section#social ul li {list-style: none;padding: 0;margin: 0;display: inline-block;}
+section#social ul {padding: 0;margin: 0;}
+
+*/
+/* -- ANIMATION -- */
+.hidden {
+  display: none;
+  opacity: 0;}
+
+main#homepage.Go {
+  animation: GoFade 1.5s ease-in-out; }
+
+@keyframes GoFade {
+  0% {
+    margin-top: 0%;
+    opacity: 0;
+    transform: scale(0.7); }
+  100% {
+    margin-top: 10%;
+    opacity: 1;
+    transform: scale(1); } }
+@keyframes contentUp {
+  0% {
+    display: none;
+    visibility: 0;
+    opacity: 0;
+    margin-top: 30%;
+    transform: scale(0.8); }
+  1% {
+    display: block;
+    visibility: 0;
+    opacity: 0;
+    margin-top: 30%;
+    transform: scale(0.8); }
+  100% {
+    display: block;
+    visibility: 1;
+    margin-top: 10%;
+    opacity: 1;
+    transform: scale(1); } }
+@keyframes contentDown {
+  0% {
+    display: block;
+    visibility: 1;
+    opacity: 1;
+    transform: scale(1); }
+  99% {
+    display: block;
+    visibility: 0;
+    opacity: 0;
+    margin-top: -1400px;
+    transform: scale(1); }
+  100% {
+    display: none;
+    visibility: 0;
+    opacity: 0;
+    margin-top: -1400px;
+    transform: scale(1); } }
+@keyframes ChgColorPrimary {
+  0% {
+    background-color: #343d46; }
+  100% {
+    background-color: #00ab8c; } }
+@keyframes ChgColorSecondary {
+  0% {
+    background-color: #00ab8c; }
+  100% {
+    background-color: #343d46; } }
+@keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+/* -- RESPONSIVE -- */
+@media screen and (max-width: 480px) {
+  body {
+    background-color: #fff;
+    background-image: none;
+    width: 100%;
+    margin: 0;
+    animation: 1.5s ease-in-out; }
+
+  main#homepage {
+    display: block;
+    width: 100%;
+    margin: 0;
+    box-shadow: none; }
+
+  #square, #square_description, #square_picture {
+    width: 100%;
+    height: auto;
+    background: white;
+    display: block;
+    padding: 0;
+    margin: 0; }
+
+  #square_picture {
+    height: 300px;
+    background-image: url("../img/pete_site.png");
+    background-size: cover;
+    background-position: 0% 22%; 
+    filter: grayscale(0);}
+
+  #shader {
+    display: none; }
+
+  div.square_inner {
+    padding: 20px; }
+
+  h1 {
+    font-size: 1.5rem; }
+
+  p.hashtags {
+    text-align: left; }
+
+  p.outro {
+    margin-left: 0px;
+    display: none; }
+
+  @keyframes GoFade {
+    0% {
+      margin-top: -120%;
+      opacity: 0; }
+    100% {
+      margin-top: 0%;
+      opacity: 1; } } }
+
