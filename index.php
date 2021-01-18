@@ -63,7 +63,7 @@ PGP: https://keybase.io/jsantin/pgp_keys.asc?fingerprint=87202b40112a5d7c9ca580c
                             </a>
                         </li>
                         <li>
-                            <a title="Visit me on LinkedIn" href="http://linkd.in/1wYcKUR" target="_blank">
+                            <a title="Visit me on LinkedIn" href="https://linkedin.com/in/jeremy-santin target="_blank">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
                         </li>
